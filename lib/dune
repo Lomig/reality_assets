@@ -1,0 +1,14 @@
+(library
+ (name realityAssets)
+ (public_name reality_assets)
+ (modules realityAssets fingerprint)
+ (private_modules fingerprint)
+ (libraries containers dream pure-html re yojson)
+ (preprocess
+  (pps ppx_inline_test ppx_assert ppx_expect))
+ (inline_tests))
+
+(library
+ (name installation)
+ (modules installation)
+ (libraries containers re cohttp-lwt-unix))

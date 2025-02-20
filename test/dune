@@ -1,0 +1,6 @@
+(library
+ (name assets_test)
+ (libraries containers reality_assets)
+ (preprocess
+  (pps ppx_assert ppx_jane))
+ (inline_tests))

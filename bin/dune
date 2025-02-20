@@ -1,0 +1,4 @@
+(executable
+ (public_name reality_assets)
+ (name main)
+ (libraries installation))
