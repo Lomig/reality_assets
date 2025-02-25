@@ -16,7 +16,7 @@ RealityAssets is an opinionated asset management library for OCaml web developme
 To install RealityAssets, add it to your `opam` dependencies:
 
 ```sh
-opam install reality_assets
+opam pin reality_assets.1.0.0 git+https://github.com/Lomig/reality_assets.git#main
 ```
 
 Then, run the CLI install command to set up the necessary folder structure:
